@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body{
+
+    margin-top: 100px;
+    background-color: black;
+    }
+    
+    .container{
+    background-color: rgb(227, 223, 223);
+    
+    }
+    ul {
+    
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    ul li{
+    border: 1px solid rgb(225, 214, 214);
+    list-style: none;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: rgb(250, 244, 244);
+    color: rgb(180, 172, 172);
+    box-shadow: 12px 12px 2px 1px rgba(156, 119, 163, 0.2);
+    
+    }
+    
+    
+    
+    h1{
+        text-align: center;
+        color: rgb(207, 176, 207);
+        font-weight: 100;
+        font-size: 50px;;
+    
+    }
+    
+    input {
+    border: none;
+    width: 100%;
+    
+    }
