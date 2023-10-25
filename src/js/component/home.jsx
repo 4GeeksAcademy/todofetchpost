@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 
-
-
-
-
-
 //create your first component
 const Home = () => {
 
 
 	const [ valueList, setValueList ] = useState([]);
+	const [inputValue, setInputValue] = useState("");
+	const [toDo, setToDo] = useState([]);
 
 	useEffect(() => {
 		fetchData();
@@ -43,7 +40,6 @@ const Home = () => {
 		}
 	}
 
-	console.log("values", valueList)
 
 	const methodAdd = (newList) => {
 		const additionalSetting = {
@@ -91,9 +87,6 @@ const Home = () => {
 			.catch((error) => console.log(error));
 	}
 
-	const [inputValue, setInputValue] = useState("");
-
-	const [toDo, setToDo] = useState([]);
 
 
 	return (
